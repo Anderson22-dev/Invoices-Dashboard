@@ -1,10 +1,7 @@
-import Image from 'next/image';
-import Search from '@/app/ui/search';
-import {
-  CustomersTableType,
-  FormattedCustomersTable,
-} from '@/app/lib/definitions';
-import { poppins } from '../fonts';
+import Image from "next/image";
+import Search from "@/app/ui/search";
+import { FormattedCustomersTable } from "@/app/lib/definitions";
+import { poppins } from "../fonts";
 
 export default async function CustomersTable({
   customers,
